@@ -1,0 +1,33 @@
+_id: req_8b4389720bce4384ba666cb04d25bef9
+type: Request
+parentId: wrk_c462750b897440b3ab67e817e64a4cc8
+modified: 1673982075684
+created: 1673918895583
+url: https://integration-dev-x9dhxmi2.it-cpi019-rt.cfapps.us10-002.hana.ondemand.com/http/precios/b2b
+name: Precios B2B
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_a4a74cb6322e4af3b5f9dceb04f3cb7d
+    name: x-csrf-token
+    value: 9xCAHqBegaOeHgyPw-4x77GmMy2WIRTi
+    description: ""
+  - id: pair_ddf5e9fdaaa649d782bc64a5d4de23cd
+    name: oVentas
+    value: OPMX
+    description: ""
+  - id: pair_ad5d3812171849d1bc0bc295abc88023
+    name: inicializacion
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1673918895583
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

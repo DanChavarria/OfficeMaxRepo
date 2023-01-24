@@ -1,0 +1,57 @@
+_id: req_fb3d45e353d04d21a5fd1782594e65c6
+type: Request
+parentId: wrk_c462750b897440b3ab67e817e64a4cc8
+modified: 1673537398023
+created: 1673458282927
+url: https://integration-dev-x9dhxmi2.it-cpi019-rt.cfapps.us10-002.hana.ondemand.com/http/entregasEntrantes/create
+name: ENTRADA_HU
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: |-
+    <ZENT_HU_CAB_SET>
+    	<ZENT_HU_CAB>
+    		<NAV_INBOUND_HU>
+    			<ZENT_HU_INBOUND>
+    				<Exidv>100001000001</Exidv>
+    				<Mandt></Mandt>
+    				<Matnr>14</Matnr>
+    				<Tmeng>1</Tmeng>
+    				<Vrkme>PI</Vrkme>
+    				<Werks>T033</Werks>
+    				<Zentrega></Zentrega>
+    			</ZENT_HU_INBOUND>
+    		</NAV_INBOUND_HU>
+    		<NAV_ITEMS_HU>
+    			<ZENT_HU_ITEMS>
+    				<DelivItem>000010</DelivItem>
+    				<DelivQty>1</DelivQty>
+    				<Delivery></Delivery>
+    				<Material>14</Material>
+    				<MatlDesc></MatlDesc>
+    				<PoItem>00010</PoItem>
+    				<PoNumber>4500001177</PoNumber>
+    				<Unit>PI</Unit>
+    				<VendMat></VendMat>
+    			</ZENT_HU_ITEMS>
+    		</NAV_ITEMS_HU>
+    		<Zentrega></Zentrega>
+    	</ZENT_HU_CAB>
+    </ZENT_HU_CAB_SET>
+parameters: []
+headers:
+  - id: pair_0965e966d8c54910b2ce8a8c7aa6cae1
+    name: x-csrf-token
+    value: Zvp9vijpBQDl97EseRiRuQ21RFP0vLvZ
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1673458282928
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

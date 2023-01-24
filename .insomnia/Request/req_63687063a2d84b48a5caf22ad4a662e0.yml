@@ -1,0 +1,37 @@
+_id: req_63687063a2d84b48a5caf22ad4a662e0
+type: Request
+parentId: wrk_c462750b897440b3ab67e817e64a4cc8
+modified: 1670366837401
+created: 1670357519796
+url: https://{{ _.host }}/http/transporte
+name: Transporte Datos 2000020
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_2330992ec55e416fb336fef562187476
+    name: fecha
+    value: 2022-12-05
+    description: ""
+  - id: pair_139749f384874793983b0f662b45a903
+    name: noTransporte
+    value: "20000020"
+    description: ""
+  - id: pair_7163de259dfb41fc9fa0a1a6b3d10d85
+    name: ""
+    value: ""
+    description: ""
+  - id: pair_e245ef330e14497e80d949b073287dd0
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1669576302576
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

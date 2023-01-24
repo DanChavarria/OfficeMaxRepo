@@ -1,0 +1,41 @@
+_id: req_1f6f449d6d3d4885aa0dfb07fee0ef62
+type: Request
+parentId: fld_5fc132c19457444e80e3e24916a42285
+modified: 1666713989816
+created: 1666197319315
+url: https://{{ _.host }}/http/transportes
+name: Transport Information
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_507ff125800946329bba9687724beb8b
+    name: fecha
+    value: 2022-10-11
+    description: ""
+    disabled: false
+  - id: pair_a68edad2526c41a889acc6700d720b01
+    name: proveedor
+    value: "100010"
+    description: ""
+    disabled: false
+  - id: pair_fb67e6d0e5f14aed84244bb436d38d05
+    name: puesto
+    value: PL01
+    description: ""
+    disabled: false
+  - id: pair_e697286658bb4523802d990e87d1b803
+    name: tipo
+    value: ZTR1
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1000000000
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

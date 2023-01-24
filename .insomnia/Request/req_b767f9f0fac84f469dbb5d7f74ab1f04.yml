@@ -1,0 +1,26 @@
+_id: req_b767f9f0fac84f469dbb5d7f74ab1f04
+type: Request
+parentId: fld_717f229788e24036be2327230a19878b
+modified: 1666710628147
+created: 1666043999570
+url: https://{{ _.host }}/http/delivery
+name: Delivery
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - id: pair_573521cced4e41bfa3a2bfaf71f4bc98
+    name: entrega
+    value: 80000044e
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1666197200717.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_a08bdd4f62dc47f4893e5483216e034e
+type: Request
+parentId: wrk_c462750b897440b3ab67e817e64a4cc8
+modified: 1673918914415
+created: 1673464248822
+url: https://integration-dev-x9dhxmi2.it-cpi019-rt.cfapps.us10-002.hana.ondemand.com/http/entregasEntrantes/create
+name: Obtener token entrada hu
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_9ac4412701684a72a2af0da9e8f00e11
+    name: x-csrf-token
+    value: fetch
+    description: ""
+authentication: {}
+metaSortKey: -1673464248822
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

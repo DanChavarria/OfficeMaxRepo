@@ -1,0 +1,71 @@
+_id: req_b969a576284047cb92301a7fee9fa272
+type: Request
+parentId: fld_c4bee04f0b4246bd8baeb0b81e9e90b8
+modified: 1670617709595
+created: 1665529009202
+url: https://{{ _.host }}/http/salesOrder
+name: Sales Order
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: |-
+    <A_SalesOrder>
+    	<A_SalesOrderType>
+    		<SalesOrderType>YB2B</SalesOrderType>
+    		<SalesOrganization>OPMX</SalesOrganization>
+    		<DistributionChannel>04</DistributionChannel>
+    		<OrganizationDivision>01</OrganizationDivision>
+    		<SoldToParty>1</SoldToParty>
+    		<PurchaseOrderByCustomer>123</PurchaseOrderByCustomer>
+    		<PaymentMethod>T</PaymentMethod>
+    		<to_Item>
+    			<A_SalesOrderItemType>
+    				<Material>14</Material>
+    				<RequestedQuantity>10</RequestedQuantity>
+    				<RequestedQuantityUnit>PI</RequestedQuantityUnit>
+    				<ProductionPlant>T001</ProductionPlant>
+    				<StorageLocation>B001</StorageLocation>
+    				<to_ScheduleLine>
+    					<A_SalesOrderScheduleLineType>
+    						<RequestedDeliveryDate>2022-10-13</RequestedDeliveryDate>
+    						<ConfirmedDeliveryDate>2022-10-13</ConfirmedDeliveryDate>
+    						<OrderQuantityUnit>PI</OrderQuantityUnit>
+    						<ScheduleLineOrderQuantity>10</ScheduleLineOrderQuantity>
+    						<ConfdOrderQtyByMatlAvailCheck>10</ConfdOrderQtyByMatlAvailCheck>
+    					</A_SalesOrderScheduleLineType>
+    				</to_ScheduleLine>
+    			</A_SalesOrderItemType>
+    			<A_SalesOrderItemType>
+    				<Material>14</Material>
+    				<RequestedQuantity>5</RequestedQuantity>
+    				<RequestedQuantityUnit>PI</RequestedQuantityUnit>
+    				<ProductionPlant>T001</ProductionPlant>
+    				<StorageLocation>B001</StorageLocation>
+    				<to_ScheduleLine>
+    					<A_SalesOrderScheduleLineType>
+    						<RequestedDeliveryDate>2022-10-13</RequestedDeliveryDate>
+    						<ConfirmedDeliveryDate>2022-10-13</ConfirmedDeliveryDate>
+    						<OrderQuantityUnit>PI</OrderQuantityUnit>
+    						<ScheduleLineOrderQuantity>5</ScheduleLineOrderQuantity>
+    						<ConfdOrderQtyByMatlAvailCheck>5</ConfdOrderQtyByMatlAvailCheck>
+    					</A_SalesOrderScheduleLineType>
+    				</to_ScheduleLine>
+    			</A_SalesOrderItemType>
+    		</to_Item>
+    	</A_SalesOrderType>
+    </A_SalesOrder>
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/xml
+    id: pair_016df2c7880843a88f85975eacb70ec9
+authentication: {}
+metaSortKey: -1665769473066
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

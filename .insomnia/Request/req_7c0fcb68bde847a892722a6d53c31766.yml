@@ -1,0 +1,51 @@
+_id: req_7c0fcb68bde847a892722a6d53c31766
+type: Request
+parentId: fld_238d6835171842db9458169408a852ec
+modified: 1670617781204
+created: 1665169161526
+url: ""
+name: Payment
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+     "companyCode": "OPMX",
+     "billingCategory": "P",
+     "billingDate": "2022-10-10",
+     "plant": "T001",
+     "salesOrg": "OPMX",
+     "distChannel": "01",
+     "customer": "3000000005",
+     "currency": "MX",
+     "extDelivery": "001",
+     "uuid": "",
+     "xml": "",
+     "items": [
+        {
+            "companyCode": "OPMX",
+            "lineItem": "010",
+            "account": "0011012301",
+            "amount": "100",
+            "payMethod": "T",
+            "assignmentD": "12",
+            "assignmentC": "123",
+            "text": "1234"
+        }
+     ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f2e155bed3154d20929cdf31516e52a4
+authentication: {}
+metaSortKey: -1665769473047.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

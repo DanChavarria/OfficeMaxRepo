@@ -1,0 +1,53 @@
+_id: req_92322d7167194b3a8509c3df6a528458
+type: Request
+parentId: fld_ebb92572851a431292e89bbd37d6f70f
+modified: 1666713570923
+created: 1665595754741
+url: https://{{ _.host }}/http/purchaseOrder
+name: Purchase Order
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: |-
+    <A_PurchaseOrder>
+    	<A_PurchaseOrderType>
+    		<CompanyCode>OPMX</CompanyCode>
+    		<PurchaseOrderType>NB</PurchaseOrderType>
+    		<PurchasingOrganization>OPMX</PurchasingOrganization>
+    		<PurchasingGroup>001</PurchasingGroup>
+    		<Supplier>0000100001</Supplier>
+    		<CorrespncExternalReference>123</CorrespncExternalReference>
+    		<DocumentCurrency>MXN</DocumentCurrency>
+    		<to_PurchaseOrderItem>
+    			<A_PurchaseOrderItemType>
+    				<Plant>T001</Plant>
+    				<StorageLocation>B001</StorageLocation>
+    				<OrderQuantity>10</OrderQuantity>
+    				<PurchaseOrderQuantityUnit>PI</PurchaseOrderQuantityUnit>
+    				<Material>14</Material>
+    				<to_ScheduleLine>
+    					<A_PurchaseOrderScheduleLineType>
+    						<ScheduleLineDeliveryDate>2022-10-12</ScheduleLineDeliveryDate>
+    						<PurchaseOrderQuantityUnit>PI</PurchaseOrderQuantityUnit>
+    						<ScheduleLineOrderQuantity>10</ScheduleLineOrderQuantity>
+    					</A_PurchaseOrderScheduleLineType>
+    				</to_ScheduleLine>
+    			</A_PurchaseOrderItemType>
+    		</to_PurchaseOrderItem>
+    	</A_PurchaseOrderType>
+    </A_PurchaseOrder>
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/xml
+    id: pair_7625e24743a7477c81105e2122a941e2
+authentication: {}
+metaSortKey: -1665769473053.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

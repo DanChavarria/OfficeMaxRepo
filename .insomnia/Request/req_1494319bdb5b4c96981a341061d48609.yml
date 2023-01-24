@@ -1,0 +1,80 @@
+_id: req_1494319bdb5b4c96981a341061d48609
+type: Request
+parentId: wrk_c462750b897440b3ab67e817e64a4cc8
+modified: 1672774875288
+created: 1672762517896
+url: https://integration-dev-x9dhxmi2.it-cpi019-rt.cfapps.us10-002.hana.ondemand.com/http/saleOrder/create
+name: SALES_ORDER
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: |-
+    <CREATE_SALE_SET>
+    	<!--1 or more repetitions:-->
+    	<CREATE_SALE>
+    		<Zid>str</Zid>
+    		<!--Zero or more repetitions:-->
+    		<NAV_CREATE_SALE_PART>
+    			<!--Zero or more repetitions:-->
+    			<ZORDER_PARTNERS>
+    				<ZorderPartners>
+    					<!--Optional:-->
+    					<PartnRole>SO</PartnRole>
+    					<!--Optional:-->
+    					<PartnNumb>1</PartnNumb>
+    				</ZorderPartners>
+    			</ZORDER_PARTNERS>
+    		</NAV_CREATE_SALE_PART>
+    		<!--Zero or more repetitions:-->
+    		<NAV_CREATE_SALE_ITM>
+    			<!--Zero or more repetitions:-->
+    			<ZORDER_ITEMS_IN>
+    				<ZorderItemsIn>
+    					<ItmNumber>10</ItmNumber>
+    					<!--Optional:-->
+    					<Material>14</Material>
+    					<!--Optional:-->
+    					<Plant>T001</Plant>
+    					<!--Optional:-->
+    					<StoreLoc>1000</StoreLoc>
+    					<!--Optional:-->
+    					<TargetQty>1.00</TargetQty>
+    					<!--Optional:-->
+    					<TargetQu>PI</TargetQu>
+    				</ZorderItemsIn>
+    			</ZORDER_ITEMS_IN>
+    		</NAV_CREATE_SALE_ITM>
+    		<!--Zero or more repetitions:-->
+    		<NAV_CREATE_SALE_HEADER>
+    			<!--Optional:-->
+    			<ZORDER_HEADER_IN>
+    				<Zbapisdhd1>
+    					<!--Optional:-->
+    					<DocType>YB2C</DocType>
+    					<!--Optional:-->
+    					<SalesOrg>OPMX</SalesOrg>
+    					<!--Optional:-->
+    					<DistrChan>05</DistrChan>
+    					<!--Optional:-->
+    					<Division>01</Division>
+    					<!--Optional:-->
+    					<Ref1>123</Ref1>
+    				</Zbapisdhd1>
+    			</ZORDER_HEADER_IN>
+    		</NAV_CREATE_SALE_HEADER>
+    	</CREATE_SALE>
+    </CREATE_SALE_SET>
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/xml
+authentication: {}
+metaSortKey: -1672762517896
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

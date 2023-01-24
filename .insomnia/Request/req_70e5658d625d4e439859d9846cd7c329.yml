@@ -1,0 +1,38 @@
+_id: req_70e5658d625d4e439859d9846cd7c329
+type: Request
+parentId: wrk_c462750b897440b3ab67e817e64a4cc8
+modified: 1674081543566
+created: 1673992903027
+url: https://integration-dev-x9dhxmi2.it-cpi019-rt.cfapps.us10-002.hana.ondemand.com/http/qas/transporte
+name: Transporte Datos QAS
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_2330992ec55e416fb336fef562187476
+    name: fecha
+    value: 2022-11-25
+    description: ""
+    disabled: true
+  - id: pair_139749f384874793983b0f662b45a903
+    name: noTransporte
+    value: "1095"
+    description: ""
+  - id: pair_7163de259dfb41fc9fa0a1a6b3d10d85
+    name: ""
+    value: ""
+    description: ""
+  - id: pair_e245ef330e14497e80d949b073287dd0
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1669616528421
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

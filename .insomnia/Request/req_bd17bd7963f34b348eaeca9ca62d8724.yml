@@ -1,0 +1,30 @@
+_id: req_bd17bd7963f34b348eaeca9ca62d8724
+type: Request
+parentId: wrk_c462750b897440b3ab67e817e64a4cc8
+modified: 1669752677801
+created: 1669752173951
+url: http://vhomxds4ci.sap.operaciones-omx.com.mx:8000/sap/opu/odata/sap/API_PRODUCT_SRV/A_Product
+name: Maestro Articulos
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_825dd0d4a9c24562a95946cb914007e9
+    name: Product
+    value: "132"
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: abapcone01
+  password: Casade123.
+metaSortKey: -1669495850886
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

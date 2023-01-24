@@ -1,0 +1,31 @@
+_id: req_f81edcb405024aca93a49ffb81bb4aa3
+type: Request
+parentId: fld_6f29331afa574a428661f92d130ea3c2
+modified: 1670617668673
+created: 1666712663616
+url: https://{{ _.host }}/http/goodsMovement
+name: Movimiento Mercancia
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: |-
+    <ZSD_CRE_Set>
+    	<ZSD_CRE_>
+    		<Referencia>REF9</Referencia>
+    	</ZSD_CRE_>
+    </ZSD_CRE_Set>
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/xml
+    id: pair_016df2c7880843a88f85975eacb70ec9
+authentication: {}
+metaSortKey: -1666457264241
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
